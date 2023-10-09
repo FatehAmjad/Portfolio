@@ -1,0 +1,13 @@
+Developed by: Fateh Din Mohammed Amjad.
+Blog website - Personal Portfolio.
+
+This was my first attempt working with ReactJS to learn advanced front-end libraries and work along with them to enhance my
+web-development skillsets. 
+
+To surf the website, the below are the steps:
+    1. Ensure you are in the "portfolio" directory.
+    2. Ensure you are in powershell terminal, as ReactJS works with bash.
+    3. Once all done, type in the terminal:
+        "npm start"
+
+        This should launch the web server, and automatically open your browser with the website.
