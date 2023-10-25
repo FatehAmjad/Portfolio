@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import './experience.css';
-import Walmart from '../../images/walmart.png';
-import Adobe from '../../images/adobe.png';
-import Microsoft from '../../images/microsoft.png';
-import Facebook from '../../images/facebook.png';
+import curtin from '../../images/curtin.png';
+import forage from '../../images/forage.png';
+import microsoft from '../../images/microsoft.png';
+import cisco from '../../images/cisco.png';
 import facebookIcon from '../../images/facebook-icon.png';
 import instaIcon from '../../images/instagram.png';
 import emailjs from '@emailjs/browser';
@@ -22,6 +22,7 @@ const Experience = () => {
             console.log(error.text);    
         });
     };
+    
     return (  
         <section id="experiencePage">
             <div id="experience">
@@ -29,10 +30,10 @@ const Experience = () => {
                 <p className="experienceDesc">During my journey of BSC IT program, I had the privilege of gaining knowledege and experience 
                 from the below notable entities. </p>
                 <div className="experienceImgs">
-                    <img src={Walmart} alt="Walmart logo." className="experienceImg" />
-                    <img src={Adobe} alt="Adobe logo." className="experienceImg" />
-                    <img src={Microsoft} alt="Microsoft logo." className="experienceImg" />
-                    <img src={Facebook} alt="Facebook logo." className="experienceImg" />
+                    <img src={curtin} alt="Curtin logo." className="experienceImg" />
+                    <img src={forage} alt="Forage logo." className="experienceImg" />
+                    <img src={microsoft} alt="Microsoft logo." className="experienceImg" />
+                    <img src={cisco} alt="Facebook logo." className="experienceImg" />
                 </div>
             </div>
 
